@@ -20,6 +20,7 @@ for i in range(ilosc_elementow):
             if puste_kg_tej_paczki > najwiecej_pustych_kg :
                 najwiecej_pustych_kg = puste_kg_tej_paczki
                 numer_paczki_max_puste_kg = numer_aktalnej_paczki
+                numer_aktalnej_paczki += 1
             ilosc_kg_w_paczke = waga_kg
     else :
         ilosc_kg_w_paczke += waga_kg
