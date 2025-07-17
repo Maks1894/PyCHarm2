@@ -28,7 +28,7 @@ for i in range(ilosc_elementow):
 
 puste_kg_ostatniej_paczki = 20 - ilosc_kg_w_paczke
 summa_pustych_kg += puste_kg_ostatniej_paczki
-print (f"Paczka {numer_aktalnej_paczki} zapelniona: {ilosc_kg_w_paczke} kg, pozostaly puste: {puste_kg_ostatniej_paczki} ")
+print (f"Paczka {numer_aktalnej_paczki} zapelniona: {ilosc_kg_w_paczke} kg, pozostaly puste kg: {puste_kg_ostatniej_paczki} ")
 if puste_kg_ostatniej_paczki> najwiecej_pustych_kg :
     najwiecej_pustych_kg = puste_kg_ostatniej_paczki
     numer_paczki_max_puste_kg = numer_aktalnej_paczki
